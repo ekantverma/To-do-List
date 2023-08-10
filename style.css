@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+body {
+    /* font-family: Arial, sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#D8A7B1;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #FAE8E0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+  }
+  
+  input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    padding: 7px 20px;
+    background-color:#2FF3E0;
+     /* #75E6DA; ; */
+    color: black;
+    font-weight: 700;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: 2s ease-in-out ;
+    
+  }
+  .deleteButton {
+    background-color: #EF7C8E;
+    color: white;
+    font-size: bold;
+    font-weight: 700;
+    margin-left: 20px;
+    transition: 2s ease-in ;
+  }
+  .deleteButton:hover {
+    border: 1px solid black;
+  }
+  button:hover {
+    border: 1px solid black;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+ #taskInput {
+    color: black;
+    font-size: bold;
+    font-weight: 600;
+}
+.fa-solid {
+    color: black;
+    font-size: 25px;
+    margin-right: 10px;
+}
+.fa-solid:hover {
+    color:#EF7C8E
+}
+.listItems {
+    font-weight: 700;
+}
+@media (max-width:425px) {
+    .container {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+@media (max-width:645px) {
+    .container {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
